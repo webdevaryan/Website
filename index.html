@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Shree viswakarmma arts</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            transition: all 1s;
+        }
+        .About{
+            height: 600px;
+        }
+        body {
+            background-image: url(background.png);
+            background: no-repeat center fixed 0px 85px;
+            /* background-size: cover; */
+        }
+
+        .topnav a {
+            float: right;
+            color: white;
+            text-decoration: none;
+            /* background: transparent; */
+            /* display: inline-block; */
+            margin-left: 10px; 
+            margin-right: 12px;
+            margin-top: 15px;
+            /* padding: top right bottom left; */
+            padding: 12px 20px 15px 20px;
+            border: 1px solid white;
+            flex-wrap: wrap;
+            border-radius: 23px;
+        }
+
+        .topnav a:hover {
+            border: none;
+            background: #009688;
+        }
+
+        .product {
+            color: #fbfcfd;
+            /* padding: 10px 25px; */
+            cursor: pointer;
+            float: right;
+            background: transparent;
+            background: #009688;
+            text-decoration: none;
+            /* display: inline-block; */
+            margin-left: 10px;
+            margin-right: 12px;
+            margin-top: 15px;
+            /* padding: top right bottom left; */
+            padding: 12px 20px 15px 20px;
+            border: 1px solid white;
+            flex-wrap: wrap;
+            border-radius: 23px;
+        }
+
+        .product:hover {
+            border: none;
+        }
+
+        .logo {
+            border-radius: 50%;
+            margin-top: 35px;
+            margin-left: 12px;
+            background-size: contain;
+            display: flex;
+
+        }
+
+        h1 {
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            color: #ffff;
+            margin-left: 34px;
+            margin-top: 60px;
+            padding-right: 50px;
+            /* display: flex; */
+            flex-wrap: wrap;
+        }
+
+        /* .About { */
+       
+        /* } */
+
+        .span {
+            font-size: 50px;
+        }
+
+        #tour {
+            color: #fbfcfd;
+            /* padding: 10px 25px; */
+            cursor: pointer;
+            /* float: right; */
+            background: transparent;
+            background: #009688;
+            transition: 0.5s;
+            text-decoration: none;
+            /* display: inline-block; */
+            margin-left: 34px;
+            margin-right: 12px;
+            /* margin-top: 5px; */
+            /* padding: top right bottom left; */
+            padding: 12px 20px 15px 20px;
+            border: 1px solid white;
+            flex-wrap: wrap;
+            border-radius: 23px;
+        }
+    
+        #tour:hover span {
+            width: 100%;
+        }
+
+        #tour:hover {
+            border: none;
+        }
+
+        .gallery {
+            border-radius: 35px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #About{
+            text-align: center;
+            font-size: 45px;
+            color: #e6eff8;
+        }
+        .container{
+            font-size: 23px;
+        }
+        .p{
+            font-size: 23px;
+        }
+        .head2{
+            height: 70px;
+            width: 100%;
+            color: darkgray;
+        }
+        .roll{
+            border: 2px solid black;
+            padding: 25px;
+            margin: 10px;
+            width: 1300px;
+            height: 150px;
+            display: inline-block;
+        }
+        .contain{
+            margin-right: 10px;
+            /* display: flex; */
+            /* justify-content: left; */
+            font-size: 25px;
+            float: left;
+            border: 3px solid black;
+        }
+        .contain img{
+            width: 300px;
+            height: 350px;
+            /* border: 3px solid black; */
+        }
+        .containn{
+            margin-right: 10px;
+            /* display: block; */
+            font-size: 25px;
+            float: left;
+            border: 3px solid black;
+        }
+        .containn img{
+            width: 500px;
+            height: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="topnav">
+                <ul>
+                    <a href="#home">home</a>
+                    <a href="#service">service</a>
+                    <a href="#About">About</a>
+                    <button type="button" class="product"> Products</button>
+                </ul>
+                <img src="logo.png" alt="logo" class="logo">
+            </div>
+            <div class="header">
+                <h1>Welcome to <br>
+                    <span class="span"> Shree Vishwakarma Arts</span>
+                </h1>
+                <button type="button" id="tour"><span></span> Take A Tour</button>
+
+            </div>
+            <div class="flex flex-wrap md:-m-2 -m-1">
+                <div class="flex flex-wrap w-1/2">
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="gallery"
+                            src="https://source.unsplash.com/500x300/?wood,woodencarving ">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="gallery"
+                            src="https://source.unsplash.com/501x301/?wood,woodencarving ">
+                    </div>
+                    <div class="md:p-2 p-1 w-full">
+                        <img alt="gallery" class="gallery"
+                            src="https://source.unsplash.com/600x300/?wood,woodencarvig ">
+                    </div>
+                </div>
+            </div>
+            <div class="side-bar">
+
+            </div>
+            <!-- creatinng about page  -->
+            <div id="About">
+                <!-- heading 1  -->
+                <h1 class="Head">About Us</h1>
+                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, modi.</span>    
+                <h2 class="head2">Our Team</h2>
+                <!-- name of mmembbers starts here  -->
+                <div class="contain">
+                <img src="team1.png" alt="jane" >
+                <h3>Jane Doe</h3>
+                <span id="roll">CEO & Founder</span>
+                </div>
+                <div class="containn">
+                    <img src="team2.jpg" alt="">
+                    <h3>mike Shakes</h3>
+                    <span class="rolll">Brand Ammbasidor</span>
+                </div>
+
+        </div>
+    </section>
+    <section>
+        <div id="service">
+            <p>Service we provide</p>
+        </div>
+    </section>
+</body>
+
+</html>
